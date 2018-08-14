@@ -1,1 +1,1 @@
-# thenaturecenter a project based on connecting biomed to homes.
+# thenaturecenter a project based on connecting biomes to homes.
