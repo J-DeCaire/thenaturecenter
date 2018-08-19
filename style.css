@@ -1,7 +1,7 @@
 /* Universal Styles */
 body{
     margin:0;
-    background-color: #b6ebef;
+    background-image:url("background.jpg");
 }
 @font-face{
     font-family: 'Hanalei Fill';
@@ -18,13 +18,19 @@ body{
     height:800px;
 }
 .banner{
-    font-family: cursive,Arial, Helvetica, sans-serif;
+    font-family: ,Arial, Helvetica, sans-serif;
     font-style: bold;
-    font-size: 50px;
+    font-size: 75px;
     color: #3e7f53;
     display:block;
-    background-color: #b6ebef;
+    border-bottom: 10px solid #4d4523;
+    text-shadow:
+    -1px -1px 0 #4d4523,
+    1px -1px 0 #4d4523,
+    -1px 1px 0 #4d4523,
+    1px 1px 0 #4d4523;
     text-align: center;
+    padding: 0px,0px,10px,0px;
 }
 
 .topnav{
@@ -35,9 +41,10 @@ body{
     line-height: 28px;
     margin:auto;
     font-family:  'Hanalei Fill', cursive;
-    color: #2d2a1d;
+    color: #1b1809;
     text-transform: uppercase;
     font-size:40px;
+    padding:10px,0px,0px,0px;
     
 }
 
@@ -60,9 +67,15 @@ body{
     font-size: 50px;
     color: #3e7f53;  
     text-align: center;
+    text-shadow:
+    -1px -1px 0 #4d4523,
+    1px -1px 0 #4d4523,
+    -1px 1px 0 #4d4523,
+    1px 1px 0 #4d4523;
 }
 
 .Description p{
     font-family: cursive,Arial, Helvetica, sans-serif;
     text-align: center;
+    font-size:30px
 }
